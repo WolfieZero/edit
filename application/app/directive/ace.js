@@ -30,7 +30,7 @@ angular.module('ace', [])
       var editor = ace.edit(element.children()[0]);
       editor.setTheme("ace/theme/merbivore");
       editor.getSession().setUseSoftTabs(true);
-      editor.getSession().setTabSize(2);
+      editor.getSession().setTabSize(4);
       editor.setShowPrintMargin(false);
 
       // Listen for some events
